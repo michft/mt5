@@ -1,0 +1,20 @@
+/********************************************************************
+ * mobile.css
+ * Mobile CSS Rules
+ *
+ * Layout that is mobile friendly for Sums site.
+ *
+ * @version	0.5 (20110301)
+ * @author	m@mich431.net
+ * @copyright Copyright (C) 2010-1 Michael Tomkins.
+ * Non-commercial use with CreativeCommons attribution allowed.
+ ********************************************************************/
+ 
+/* Nothing to see here YET.*/
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+line-height: 150%;
+color: #000;
+background: #fff;
+}
