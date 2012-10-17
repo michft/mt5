@@ -1,0 +1,479 @@
+/********************************************************************
+ * default.css
+ * Default Browser CSS Rules 
+ *
+ * Overrides for layout on Sums site.
+ *
+ * @version	0.5 alpha (20110301)
+ * @author	m@mich431.net
+ * @copyright Copyright (C) 2010-1 Michael Tomkins.
+ * Non-commercial use with CreativeCommons attribution allowed.
+ ********************************************************************/
+ 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+margin: 0; 
+padding: 0;
+}
+
+fieldset,img {  
+border: 0; 
+} 
+
+option {
+padding-left: 0.4em;
+}
+
+html {
+height: 100%;
+margin-bottom: 1px;
+}
+
+.event_legend_item {
+border-left:1px ;
+}
+
+.contentpaneopen {
+width: 100%;
+}
+
+hasjevtip {
+	background: #ff0;
+}
+
+showjevadd a.rollover {
+	display: block;
+	width: 150px;
+	height: 44px;
+	text-decoration: none;
+	background: #ff0;
+	}
+
+showjevadd a.rollover:hover {
+	background-position: -150px 0;
+	background: #ff0;
+	}
+
+p {
+padding: 0.5em 0;
+}
+
+.banneritem img {
+width: 100%; 
+height: auto;
+}
+
+td .tableh1 h2{
+font-size: 1.5em;
+padding: 0.4em;
+}
+table .maintable {
+border: 1px solid #999;
+}
+td .tableh1, td .weekdayclr, td .weekdayemptyclr, .sundayemptyclr {
+border: 1px solid #fff;
+}
+td .tableh1 tr {
+border: 1px solid #fff;
+}
+
+.todayclr {
+background: #doe6f6;
+}
+
+td .tablec {
+border: 1px solid #fff;
+background: #d8e0e4;
+height: 3em;
+padding: 1em;
+}
+
+div.event_legend_container {
+height: auto;
+padding: 0; 
+}
+
+div.eventstyle {
+border-style:solid;
+background: #e4e8e8;
+border-width: 0 0 2px 0;
+margin: 2px;
+}
+li.ev_td_li {
+border-style:solid;
+border-width: 0 0 2px 4px;
+margin: 2px;
+padding: 4px;
+}
+
+div.event_legend_item {
+float: left;
+width:18%;
+height: 1.4em;
+padding:0.4em;
+margin: 0.4em 0;
+overflow:hidden;
+}
+
+div.event_legend_name {
+border-style:solid;
+border-width: 0 0 0 2px;
+padding: 0 0.4em;
+}
+
+
+td .nextmonth, td .previousmonth {
+background: #d8e0e8;
+}
+
+td .weekdayemptyclr {
+color: #ccc;
+background: #e4e8e8;
+}
+td .weekdayclr  {
+color: #78b;
+background: #eee;
+}
+td .sundayemptyclr{
+color: #78a;
+background: #ddd;
+}
+
+td .weekdaytopclr { 
+background: #666;
+background: #666 url(../images/bgd.png) 0 0 repeat-x;
+background: -moz-linear-gradient(top, #aaa 1px, #666 24px);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1px,#aaa), color-stop(24px,#666));
+}
+td .tablev1 {
+background: #666;
+vertical-align: middle;
+}
+td .tablev1 a, td .weekdaytopclr {
+color: #fff;
+}
+
+.tablec {
+/* background: #d8dddd; */
+}
+
+.extcal_navbar, td .tableh1, .extcal_weekdays  {
+background: #ffffff;
+background: #fff url(../images/bg.png) 0 0 repeat-x;
+background: -moz-linear-gradient(top, #DDD 1px, #FFF 24px);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1px,#DDD), color-stop(24px,#FFF));
+}
+.extcal_tiny_add_event_link {
+font-size: 1em;
+}
+TABLE.extcal_weekdays {
+width:205px;
+}
+TD.extcal_weekdays { 
+font-size: 1em;
+}
+.extcal_small {
+font-size: 0.8em;
+}
+.extcal_daycell, .extcal_todaycell,
+.extcal_sundaycell, .extcal_othermonth { 
+font-size: 1em;
+}
+.extcal_month_label { 
+font-size: 1.1em;
+}
+#extcal_minical .extcal_daylink {
+color: #555;
+}
+#extcal_minical .extcal_sundaylink {
+color: #aaa;
+}
+#extcal_minical .extcal_busylink {
+color: #0af;
+}
+#extcal_minical .extcal_todaycell {
+background: #def;
+}
+.mod_events_link {
+	cursor:pointer;
+}
+
+/* page setup */
+body {
+position: relative; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 150%;
+/* color: #666;
+background: #fff; */
+}
+
+#header-ruler {
+background: #FFF; /* really old browsers */
+background: #FFF url(../images/header_bg.png) 0 0 repeat-x; /* IE6 and old browsers */
+background: -moz-linear-gradient(top, #FFF 1px, #FFF 110px, #eee 118px,#CCC 125px, #333 126px, #000 169px, #0AF 170px, #0AF 174px, #000 175px, #FFF 176px, #CCC 177px, #eee 183px, #FFF 191px); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1px,#FFF), color-stop(110px,#FFF), color-stop(118px,#eee), color-stop(125px,#CCC), color-stop(126px,#333), color-stop(169px,#000), color-stop(170px,#0AF), color-stop(174px,#0AF), color-stop(175px,#000), color-stop(176px,#FFF), color-stop(177px,#CCC), color-stop(183px,#eee), color-stop(191px,#FFF), color-stop(200px,#FFF)); /* webkit */
+}
+
+#header {
+position: relative;
+height: 200px;
+margin: 0px auto 0px auto;
+max-width: 1100px;
+min-height: 200px;
+min-width: 800px
+}
+
+span#logo, img#logo {
+position: absolute;
+top: 10px;
+left: 0px;
+padding-left: 10px;
+width: auto;
+height: 110px;
+border: 0;
+}
+
+#search {
+position: absolute;
+top: 96px;
+right: 0;
+width: 15%;
+height: 30px;
+padding: 6px 0 0 36px;
+background: url(../images/search_tab.png) 0 0 no-repeat;
+}
+
+/* ux-menu positioning */
+#topmodule {
+position: absolute;
+top: 131px;
+right: 0;
+}
+
+#page-main {
+/* background: #fff; */
+display: block;
+padding:0;
+margin: 0px auto;
+max-width: 1100px;
+min-width: 800px
+}
+
+#middle {
+width: auto;
+padding: 10px 0px 0px 0px;
+margin:0 260px 0 220px;
+}
+
+#left {
+width: 200px;
+float: left;
+}
+
+#right {
+width: 240px;
+float: right;
+}
+
+/* makes page-main longer than left, right or middle columns */
+#colm-fixer {
+clear:both;
+height:1px;
+}
+
+#breadcrumb {
+height: 1.5em;
+font-size: 0.8em;
+color: #646464;
+}
+
+#footer-ruler {
+background: #000; /* really old browsers */
+background: #000 url(../images/footer_bg.png) 0 0 repeat-x; /* IE6 and old browsers */
+background: -moz-linear-gradient(top, #FFF 1px, #CCC 14px, #FFF 15px, #000 16px, #0AF 17px, #0AF 21px, #333 22px, #000 100px); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1px,#FFF), color-stop(14px,#CCC), color-stop(15px,#FFF), color-stop(16px,#000), color-stop(17px,#0AF), color-stop(21px,#0AF), color-stop(22px,#333), color-stop(100px,#000)); /* webkit */
+}
+
+#footer {
+min-height: 50px;
+padding: 40px 0px 10px 0px;
+text-align: center;
+color: #fff;
+max-width: 1100px;
+min-width: 800px
+}
+
+td, th { 
+padding: 1px;
+}
+
+a:link, a:visited {
+color: #005ab4;
+text-decoration: none;
+}
+
+a:hover {
+color: #0af;
+text-decoration: underline;
+}
+
+ul {
+margin: 10px 10px 10px 10px;
+padding: 0px 0px 0px 15px;
+}
+
+ul.arrow, ul.arrow-big, ul.checkbox, ul.checkbox-big {
+margin: 10px 10px 10px 20px;
+padding: 0px 0px 0px 0px;
+list-style: none;
+}
+
+ul.checkbox li {
+margin: 10px 0px 10px 0px;
+padding: 8px 0px 5px 30px;
+background: url(../images/list_checkbox.png) 0 0 no-repeat;
+font-weight: bold;
+line-height: 100%
+}
+
+ul.checkbox-big li {
+margin: 15px 0px 15px 0px;
+padding: 15px 0px 20px 55px;
+background: url(../images/list_checkbox_big.png) 0 0 no-repeat;
+font-size: 200%;
+font-weight: bold;
+}
+
+ul.arrow li {
+margin: 5px 0px 0px 0px;
+padding: 3px 0px 10px 35px;
+background: url(../images/list_arrow.png) 0 0 no-repeat;
+font-weight: bold;
+}
+
+ul.arrow-big li {
+margin: 15px 0px 15px 0px;
+padding: 10px 0px 30px 60px;
+background: url(../images/list_arrow_big.png) 0 0 no-repeat;
+font-size: 200%;
+font-weight: bold;
+}
+
+.createdate {
+font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6,  .componentheading , .contentheading , .contentpagetitle {
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 0px;
+margin-bottom: 5px;
+line-height: 100%;
+color: #0af;
+}
+
+h1, .componentheading, .contentpagetitle{
+font-size: 39px;
+padding: 0.4em 0;
+font-weight: normal;
+}
+
+h2,  .contentheading  {
+font-size: 32px;
+padding: 0.2em 0;
+}
+
+h3 , .componentheading  .contentheading  {
+font-size: 26px;
+padding: 0.2em 0;
+}
+
+h4 {
+font-size: 175%;
+font-weight: normal;
+}
+
+h5 {
+font-size: 150%;
+color: #787878;
+}
+
+h6 {
+font-size: 125%;
+}
+
+/* sub and other menu */
+div.moduletable h3,
+div.moduletable-blank h3,
+div.module h3,
+div.module-blank h3,
+div.moduletable-lightgrey h3,
+div.moduletable-darkgrey h3,
+div.moduletable-black h3 {
+font-size: 1.2em;
+}
+
+/* left modules */
+#left .moduletable, #right .moduletable {
+margin: 0px 0px 15px 0px;
+padding: 10px 10px 15px 10px;
+width: 178px;
+background: #fff url(../images/module_bg.png) 0 100% repeat-x;
+border: 1px solid #c8c8c8;
+overflow: hidden;
+}
+
+/* right modules */
+#right .moduletable {
+width: 218px;
+}
+
+/* login customisation */
+#tg-login li, #tg-login ul {
+font-size: 0.8em;
+margin: 0 0 0 15px;
+padding: 0;
+}
+
+#tg-login input {
+margin: 2px 0;
+}
+
+
+/* Calendar */
+
+ /*
+ * Ext Core Library Examples 3.0
+ * http://extjs.com/
+ * Copyright(c) 2006-2009, Ext JS, LLC.
+ * 
+ * The MIT License
+ * 
+ */
+
+.ux-menu-init-hidden{visibility:hidden;position:absolute;}.ux-menu-container{position:relative;}.ux-menu,.ux-menu ul{list-style-image:none;list-style-position:outside;list-style-type:none;margin:0;padding:0;line-height:1;}.ux-menu li{position:relative;float:left;}.ux-menu ul{position:absolute;top:0;left:0;}.ext-border-box .ux-menu-ie-iframe,.ext-ie7 .ux-menu-ie-iframe{padding:0;margin:0;position:absolute;top:0;left:0;display:none;z-index:-1;}.ux-menu-vertical .ux-menu-item-main{clear:left;}.ux-menu a{display:block;position:relative;text-decoration:none;color:#432;border-left:1px solid #e3dad1;border-top:1px solid #e3dad1;border-bottom:1px solid #e3dad1;background:#f3efec url(images/menu-item-bg.png) repeat;font-size:12px;line-height:12px;padding:10px 14px;}.ux-menu a.ux-menu-link-last{border-right:1px solid #e3dad1;}ux.menu ul a{width:100%;}.ux-menu a:focus,.ux-menu a:hover,.ux-menu a.ux-menu-link-hover{border-color:#d2e3f4;background:url(images/menu-item-bg-over.png) repeat;outline:0;}.ux-menu-clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}.ux-menu a.ux-menu-link-parent{padding-right:24px;min-width:1px;}.ux-menu ul a,.ux-menu.ux-menu-vertical a{border-bottom:0;border-right:1px solid #e3dad1;}.ux-menu ul a.ux-menu-link-last,.ux-menu.ux-menu-vertical a.ux-menu-link-last{border-bottom:1px solid #e3dad1;}.ux-menu-arrow{display:block;width:8px;height:6px;right:10px;top:14px;position:absolute;background:url(images/menu-arrow-down.png) no-repeat;font-size:0;}.ux-menu.ux-menu-vertical .ux-menu-arrow,.ux-menu ul .ux-menu-arrow{width:6px;height:8px;top:13px;background:url(images/menu-arrow-right.png) no-repeat;}.ext-border-box .ux-menu-arrow{top:17px;}.ext-border-box .ux-menu.ux-menu-vertical .ux-menu-arrow,.ext-border-box .ux-menu ul .ux-menu-arrow{top:16px;}.ux-menu ul.ux-menu-hidden{display:none;}.ux-menu a.current{background-image:url('images/menu-item-bg-current.png');border-color:#cbc0b7;}
+
+
+ux-menu a {
+display: block;
+position: relative;
+text-decoration: none;
+border: 1px solid #ccc;
+background: #deefff;
+font-size: 1em;
+line-height: 1em;
+padding: 0.4em 1.3em;
+}
+.ux-menu a:focus,
+.ux-menu a:hover,
+.ux-menu a.current,
+.ux-menu a.ux-menu-link-hover {
+background: #fff;
+}
+
+.ux-menu a {
+/* thanks to  http://www.colorzilla.com/gradient-editor/ */
+background: #fff; /* old browsers */
+background: -moz-linear-gradient(top, #fff 0%, #def 50%, #cdf 80%, #4cf 100%); /* firefox */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(50%,#def), color-stop(80%,#cdf), color-stop(100%,#4cf)); /* webkit */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#4cf',GradientType=0 ); /* ie */
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+         <name>mt5</name>
+         <creationDate>Mar 2011</creationDate>
+         <author>Michael Tomkins</author>
+         <authorEmail>templates@mich431.net</authorEmail>
+         <authorUrl>http://www.mich431.net</authorUrl>
+         <copyright>Michael Tomkins</copyright>
+         <license>CC</license>
+         <version>0.5 alpha</version>
+         <description><![CDATA[
+<img src="../templates/mt4/template_thumbnail.png" align="right" style="margin: 0px 0px 10px 10px;" />
+<span style="font-size: 13px;">
+mt SUMS simple template
+<br />Michaels basic SUMS site custom Joomla template
+<br />My website
+<br /><a href="http://mich431.net/">http://mich431.net</a>.
+</span>
+]]></description>
+        <files>
+        <filename>template_thumbnail.png</filename>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>js/</folder>
+		<folder>css/</folder>
+		<folder>images/</folder>
+         </files>
+         <positions>
+                <position>breadcrumb</position>
+                <position>left</position>
+                <position>right</position>
+                <position>top</position>
+                <position>user1</position>
+                <position>user2</position>
+                <position>content</position>
+                <position>user3</position>
+                <position>user4</position>
+                <position>footer</position>
+         </positions>
+</install>
